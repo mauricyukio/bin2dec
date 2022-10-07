@@ -1,0 +1,84 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+body {
+    background-color: #eee;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#container {
+    background-color: #222;
+    color: #eee;
+    border-radius: 1rem;
+    width: 500px;
+    height: 300px;
+    margin: 50px auto;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#input-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+
+.button {
+    background-color: #eee;
+    color: #222;
+    width: 100px;
+    height: 30px;
+    padding: 0 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2rem;
+    border-radius: .5rem;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+#dec-output {
+    margin-top: 2rem;
+}
+
+#message {
+    display: none;
+}
+
+.division {
+    margin: 1rem 0;
+    justify-content: left;
+    align-items: center;
+}
+
+input {
+    border: none;
+    border-radius: .5rem;
+    width: 200px;
+    margin: 2rem 0;
+    height: 30px;
+    padding: 5px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+  }
